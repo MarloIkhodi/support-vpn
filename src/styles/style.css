@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    border:none;
+    box-sizing: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 117px;
+    gap: 10px;
+    font-size: 20;
+}
+.logoContainer h1 {
+    font-weight: 500;   ;
+}
+nav{
+    display: flex;
+    margin-right: 153px;
+    gap: 40px;
+}
+nav a{
+    color:#4F5665;
+    font-size: 16px;
+}
+/* pai <nav>, está pintando todos os ancoras <a> para dar uma cor a eles */
+.accessContainer{
+    display: flex;
+    gap: 30px;
+    background: transparent;
+}
+button {
+    background-color: transparent;
+}
+.accessContainer :last-child {
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    color:#F53855;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 89px;
+    gap: 41px;
+}
+.sectionContent {
+    width: 555px;
+}
+.sectionContent h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+.sectionContent p {
+    font-weight: 400;
+    font-weight: 16;
+    margin-top: 20px;
+    color:#4F5665
+}
+
+.sectionContent button {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F53838;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
