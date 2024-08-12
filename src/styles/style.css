@@ -4,6 +4,9 @@
     text-decoration: none;
     border:none;
     box-sizing: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal
 }
 header{
     display: flex;
@@ -39,7 +42,7 @@ nav a{
 button {
     background-color: transparent;
 }
-.accessContainer :last-child {
+.singUp {
     border-radius: 50px;
     border: 1px solid #F53855;
     width: 150px;
@@ -76,5 +79,37 @@ button {
     color: white;
     font-size: 16px;
     font-weight: 700;
+    box-shadow: 0 25px 35px -16px rgba(245, 56, 56, 0.35);
+}
+.featuresContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+    gap: 170px;
+}
+.featuresList h2{
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 54px;
+    width: 383px;
+}
+.featuresFirst {
+    font-weight: 400;
+    font-size: 16px;
+    width: 430px;
+    color: rgba(79, 86, 101, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.featuresAll p {
+    margin-bottom: 20px;
+    width: 220px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(79, 86, 101, 1);
+}
+.featuresAll img {
+    vertical-align:middle;
+    margin-right: 10px;
+}
