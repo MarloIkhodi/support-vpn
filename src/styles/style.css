@@ -8,105 +8,162 @@
   font-weight: 500;
   font-style: normal;
 }
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.875em; /* 46px / 16 */
+  margin-top: 2.875em;
+  /* 46px / 16 */
 }
+
 .logoContainer {
   display: flex;
   align-items: center;
-  margin-right: 7.3125em; /* 117px / 16 */
-  gap: 0.625em; /* 10px / 16 */
-  font-size: 1.25em; /* 20px / 16 */
+  margin-right: 7.3125em;
+  /* 117px / 16 */
+  gap: 0.625em;
+  /* 10px / 16 */
+  font-size: 1.25em;
+  /* 20px / 16 */
 }
+
 .logoContainer h1 {
   font-weight: 500;
 }
+
 nav {
   display: flex;
-  margin-right: 9.5625em; /* 153px / 16 */
-  gap: 2.5em; /* 40px / 16 */
+  margin-right: 9.5625em;
+  /* 153px / 16 */
+  gap: 2.5em;
+  /* 40px / 16 */
 }
+
 nav a {
   color: #4f5665;
-  font-size: 1em; /* 16px / 16 */
+  font-size: 1em;
+  /* 16px / 16 */
 }
+
 .accessContainer {
   display: flex;
-  gap: 1.875em; /* 30px / 16 */
+  gap: 1.875em;
+  /* 30px / 16 */
   background: transparent;
 }
+
 button {
   background-color: transparent;
 }
+
 .singUp {
-  border-radius: 3.125em; /* 50px / 16 */
-  border: 0.0625em solid #f53855; /* 1px / 16 */
-  width: 9.375em; /* 150px / 16 */
-  height: 2.8125em; /* 45px / 16 */
+  border-radius: 3.125em;
+  /* 50px / 16 */
+  border: 0.0625em solid #f53855;
+  /* 1px / 16 */
+  width: 9.375em;
+  /* 150px / 16 */
+  height: 2.8125em;
+  /* 45px / 16 */
   color: #f53855;
 }
+
 .aboutContainer {
   display: flex;
   justify-content: center;
-  margin-top: 5.5625em; /* 89px / 16 */
-  gap: 2.5625em; /* 41px / 16 */
+  margin-top: 5.5625em;
+  /* 89px / 16 */
+  gap: 2.5625em;
+  /* 41px / 16 */
 }
+
 .sectionContent {
-  width: 34.6875em; /* 555px / 16 */
+  width: 34.6875em;
+  /* 555px / 16 */
 }
+
 .sectionContent h2 {
-  font-size: 3.125em; /* 50px / 16 */
+  font-size: 3.125em;
+  /* 50px / 16 */
   font-weight: 500;
-  margin-top: 1.75em; /* 28px / 16 */
+  margin-top: 1.75em;
+  /* 28px / 16 */
 }
+
 .sectionContent p {
   font-weight: 400;
-  font-size: 1em; /* 16px / 16 */
-  margin-top: 1.25em; /* 20px / 16 */
+  font-size: 1em;
+  /* 16px / 16 */
+  margin-top: 1.25em;
+  /* 20px / 16 */
   color: #4f5665;
 }
+
 .sectionContent button {
-  width: 15.625em; /* 250px / 16 */
-  height: 3.75em; /* 60px / 16 */
-  border-radius: 0.625em; /* 10px / 16 */
+  width: 15.625em;
+  /* 250px / 16 */
+  height: 3.75em;
+  /* 60px / 16 */
+  border-radius: 0.625em;
+  /* 10px / 16 */
   background-color: #f53838;
-  margin-top: 3.125em; /* 50px / 16 */
+  margin-top: 3.125em;
+  /* 50px / 16 */
   color: white;
-  font-size: 1em; /* 16px / 16 */
+  font-size: 1em;
+  /* 16px / 16 */
   font-weight: 700;
-  box-shadow: 0 1.5625em 2.1875em -1em rgba(245, 56, 56, 0.35); /* 25px / 16, 35px / 16, -16px / 16 */
+  box-shadow: 0 1.5625em 2.1875em -1em rgba(245, 56, 56, 0.35);
+  /* 25px / 16, 35px / 16, -16px / 16 */
 }
+
 .featuresContainer {
   display: flex;
   justify-content: center;
-  margin-top: 5.9375em; /* 95px / 16 */
-  gap: 10.625em; /* 170px / 16 */
+  margin-top: 5.9375em;
+  /* 95px / 16 */
+  gap: 10.625em;
+  /* 170px / 16 */
 }
+
 .featuresList h2 {
   font-weight: 500;
-  font-size: 2.1875em; /* 35px / 16 */
-  margin-top: 3.375em; /* 54px / 16 */
-  width: 23.9375em; /* 383px / 16 */
+  font-size: 2.1875em;
+  /* 35px / 16 */
+  margin-top: 3.375em;
+  /* 54px / 16 */
+  width: 23.9375em;
+  /* 383px / 16 */
 }
+
 .featuresFirst {
   font-weight: 400;
-  font-size: 1em; /* 16px / 16 */
-  width: 26.875em; /* 430px / 16 */
+  font-size: 1em;
+  /* 16px / 16 */
+  width: 26.875em;
+  /* 430px / 16 */
   color: rgba(79, 86, 101, 1);
-  margin-top: 1.25em; /* 20px / 16 */
-  margin-bottom: 1.25em; /* 20px / 16 */
+  margin-top: 1.25em;
+  /* 20px / 16 */
+  margin-bottom: 1.25em;
+  /* 20px / 16 */
 }
+
 .featuresAll p {
-  margin-bottom: 1.25em; /* 20px / 16 */
-  width: 13.75em; /* 220px / 16 */
+  margin-bottom: 1.25em;
+  /* 20px / 16 */
+  width: 13.75em;
+  /* 220px / 16 */
   font-weight: 400;
-  font-size: 0.875em; /* 14px / 16 */
+  font-size: 0.875em;
+  /* 14px / 16 */
   color: rgba(79, 86, 101, 1);
 }
+
 .featuresAll img {
   vertical-align: middle;
-  margin-right: 0.625em; /* 10px / 16 */
+  margin-right: 0.615em;
+  /* 10px / 16 */
+  /
 }
